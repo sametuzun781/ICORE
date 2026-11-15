@@ -1,0 +1,11 @@
+* text=auto
+*.py text eol=lf
+*.c text eol=lf
+*.h text eol=lf
+*.md text eol=lf
+*.ipynb text eol=lf
+*.npz binary
+*.tar.gz binary
+icore/vendor/** linguist-vendored
+icore/src/chain_sparse/** linguist-vendored
+docs/ICORE-Methods.html linguist-generated

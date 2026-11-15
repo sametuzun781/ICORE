@@ -1,0 +1,24 @@
+# Generated native builds, never source.
+.build/
+**/build/
+**/install/
+icore/vendor/blasfeo/dependency_receipt.json
+__pycache__/
+*.py[cod]
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+
+# Local notebook/runtime state and benchmark output.
+.ipynb_checkpoints/
+runs/
+.pytest_cache/
+.venv/
+venv/
+.DS_Store
+.vscode/
+.idea/
+
+# Keep the .npz problem examples and vendored source archives tracked.
