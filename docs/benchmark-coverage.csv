@@ -1,0 +1,5 @@
+solver,passed,failed,unsupported,unavailable,incomplete,invalid,not_requested
+ICORE C++,393,0,0,0,0,0,0
+ICORE C,393,0,0,0,0,0,0
+HPIPM,344,1,48,0,0,0,0
+QOCO,360,33,0,0,0,0,0
