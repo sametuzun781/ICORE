@@ -94,8 +94,13 @@ missing `mixed_sweep_stubs.h` is present in the archive.
 
 No actual macOS/ARM execution or performance claim is made. The optional JAX numerical
 source is preserved, but no new full-catalog JAX test was performed. Finite tests do
-not constitute an all-input proof. An independent project-level license selection
-is still needed before public release of ICORE-owned source.
+not constitute an all-input proof.
+
+A later documentation-only update adds the root MIT License for ICORE-owned
+portions. The numerical results above predate that license update; they are not
+new benchmark or test results. All engine, example, and notebook files are
+unchanged by the licensing update. See `../LICENSE-NOTE.md` for scope and
+maintainer release responsibilities.
 
 ## Reproduce
 

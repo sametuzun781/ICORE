@@ -13,6 +13,19 @@ interior-point algorithm. Native C and C++ backends use the same numerical sourc
 This checkout keeps the **0.20.0 numerical engine**, including the portable-build fix.
 It reorganizes the examples and documentation; it is not a new optimization algorithm.
 
+## License
+
+ICORE-owned code and accompanying documentation are available under the
+[MIT License](LICENSE). Commercial and noncommercial use, modification,
+redistribution, and use in closed-source products are permitted, subject to the
+license's copyright and permission-notice requirements. The software is provided
+without warranty.
+
+Third-party code and materials retain their original licenses and notices; the
+project-level MIT license does not replace them. See
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and
+[license scope](LICENSE-NOTE.md).
+
 ## Development transparency and review status
 
 ICORE was developed in an iterative human–GPT workflow. Substantial portions of its implementation and documentation were generated and revised with GPT, under human direction.
@@ -131,6 +144,5 @@ python -m tests.portable_build       # Forces the portable GENERIC path.
 - [Validation of this repack](docs/VALIDATION.md)
 - [Methods book](docs/ICORE-Methods.html) — includes the development-transparency note; download/open it in a browser.
 
-Before publishing, review [the license note](LICENSE-NOTE.md). No new license for
-ICORE-owned code is selected on the author's behalf. Third-party notices are
-preserved; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+See [LICENSE](LICENSE) for ICORE's MIT terms and
+[THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for separately licensed components.
